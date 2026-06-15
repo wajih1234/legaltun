@@ -1,0 +1,74 @@
+.input-area {
+    padding: 14px 24px 18px;
+    border-top: 0.5px solid var(--border-main);
+    flex-shrink: 0;
+    background: var(--bg-primary);
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0.5px solid var(--border-main);
+    border-radius: 14px;
+    padding: 8px 12px;
+    background: var(--bg-input);
+    transition: border-color 0.15s;
+  }
+  
+  .input-row:focus-within {
+    border-color: var(--accent);
+  }
+  
+  .input-row.disabled {
+    opacity: 0.6;
+  }
+  
+  .input-field {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: var(--text-primary);
+    outline: none;
+    font-family: var(--font-sans);
+    resize: none;
+    line-height: 1.5;
+    max-height: 120px;
+    overflow-y: auto;
+  }
+  
+  .input-field::placeholder {
+    color: var(--text-muted);
+  }
+  
+  .send-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: opacity 0.15s;
+  }
+  
+  .send-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  .send-btn:not(:disabled):hover {
+    opacity: 0.85;
+  }
+  
+  .input-hint {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 8px;
+  }

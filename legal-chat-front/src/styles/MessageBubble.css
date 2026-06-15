@@ -1,0 +1,63 @@
+.msg-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .msg-row.user {
+    flex-direction: row-reverse;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    border: 0.5px solid var(--border-main);
+    background: var(--bg-secondary);
+  }
+  
+  .bubble {
+    max-width: 72%;
+    padding: 11px 15px;
+    border-radius: 16px;
+    font-size: 13px;
+    line-height: 1.65;
+  }
+  
+  .bubble.bot {
+    background: var(--bot-bubble-bg);
+    color: var(--bot-bubble-text);
+    border: 0.5px solid var(--bot-bubble-border);
+    border-top-left-radius: 4px;
+  }
+  
+  .bubble.user {
+    background: var(--user-bubble-bg);
+    color: var(--user-bubble-text);
+    border-top-right-radius: 4px;
+  }
+  
+  .bubble-text {
+    white-space: pre-wrap;
+  }
+  
+  .sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  
+  .source-tag {
+    font-size: 10px;
+    padding: 3px 10px;
+    background: var(--source-bg);
+    color: var(--source-text);
+    border: 0.5px solid var(--source-border);
+    border-radius: 20px;
+  }

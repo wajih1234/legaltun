@@ -1,0 +1,22 @@
+======================================================================
+   BENCHMARK COMPARAISON MODELES EMBEDDING - LexTN
+   Source: JORT N°49 du 15 mai 2026
+======================================================================
+
+Nombre de paires testées : 100
+Modèles testés : MiniLM-L12 , mpnet-base, sota, allminlm-l6
+
+----------------------------------------------------------------------
+     Modèle  Dimensions  Sim Pertinent ↑  Sim Irrelevant ↓  Gap Moyen ↑  Temps (s)
+MiniLM-L12          384           0.6983            0.4117       0.2866      11.05
+ mpnet-base         768           0.7239            0.4365       0.2874      40.41
+       sota        1024           0.6224            0.3732       0.2493      98.32
+allminlm-l6         384           0.7034            0.4855       0.2180       5.04
+
+----------------------------------------------------------------------
+Légende:
+  Sim Pertinent ↑  : score cosinus moyen query/texte pertinent (plus élevé = mieux)
+  Sim Irrelevant ↓ : score cosinus moyen query/texte irrelevant (plus bas = mieux)
+  Gap Moyen ↑      : différence moyenne (pertinent - irrelevant) (plus élevé = mieux)
+  Temps (s)        : temps total d'encodage des 20 paires
+======================================================================

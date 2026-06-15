@@ -1,0 +1,897 @@
+==========================================================================================
+  RAPPORT DE TEST RAG — 13mars2026.pdf
+  Généré le 11/06/2026 à 10:46:04
+  Collection  : jort_docs
+  Modèle      : paraphrase-multilingual-MiniLM-L12-v2
+  Questions   : 70 total (40 simples + 30 moyennes)
+==========================================================================================
+
+==========================================================================================
+  CONFIG 4 | chunk_size=1000 | overlap=200 | threshold=0.7 | top_k=5
+  Grands chunks, overlap 20%, threshold strict
+  Chunks indexés : 32
+==========================================================================================
+
+  ── QUESTIONS SIMPLES ───────────────────────────────────────────────────
+
+  Q01 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque d'El Khobna ?
+       → ✓ 1 chunk(s)  |  46 ms
+       [1] score=0.7104  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q02 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q03 [SIMPLE] Quelle loi approuve la centrale photovoltaïque de Mezzouna ?
+       → ✗ AUCUN RÉSULTAT  |  13 ms
+
+  Q04 [SIMPLE] Quelle société a signé la convention pour la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q05 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q06 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q07 [SIMPLE] À quelle date a été signée la convention de la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q08 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque d'El Khobna ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q09 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque El Ksar ?
+       → ✓ 1 chunk(s)  |  11 ms
+       [1] score=0.7469  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q10 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque El Ksar ?
+       → ✓ 1 chunk(s)  |  11 ms
+       [1] score=0.7261  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q11 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque de Mezzouna ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q12 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque de Segdoud ?
+       → ✓ 1 chunk(s)  |  7 ms
+       [1] score=0.7307  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q13 [SIMPLE] Qui remplace Khaled Hachicha au conseil d'établissement de l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q14 [SIMPLE] Qui est le ministre de la santé signataire de l'arrêté du 14 mai 2026 ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7359  chunk_id=17
+            hospitalier de la catégorie « A » ) au ministère de la santé. Par arrêté du ministre de la santé du 15 mai 2026. Docteur Mohamed Turki est nommé membre Par arrêté du ministre de la santé du 15 mai 2026. représentant des ...
+
+  Q15 [SIMPLE] Qui remplace Maroua Bahri au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✗ AUCUN RÉSULTAT  |  13 ms
+
+  Q16 [SIMPLE] Qui remplace Hsan Hmida au conseil d'administration de l'Institut de neurologie de Tunis ?
+       → ✓ 1 chunk(s)  |  14 ms
+       [1] score=0.7780  chunk_id=18
+            des indemnités et des avantages attribués à l'emploi de représentant la commune de Tunis au conseil sous- directeur d'administration centrale. d'administration de l'Institut national « El Mongi Ben Hmida » de neurologie ...
+
+  Q17 [SIMPLE] Qui remplace Adel Mohsni au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  25 ms
+
+  Q18 [SIMPLE] Qui remplace Aïda Borji au conseil d'administration de l'hôpital Bechir Hamza ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q19 [SIMPLE] Qui remplace Kamel Yacoubi à la Compagnie des phosphates de Gafsa ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q20 [SIMPLE] Qui est nommée administrateur représentant la Banque centrale de Tunisie à la CPG ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q21 [SIMPLE] Qui est nommé membre représentant les médecins de libre pratique à l'Instance nationale de l'évaluation en santé ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q22 [SIMPLE] Qui est nommée membre au conseil d'administration de l'hôpital Abderrahmane Mami de l'Ariana ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q23 [SIMPLE] Qui est chargé des fonctions d'inspecteur des services médicaux au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q24 [SIMPLE] Qui est nommée chef de service de documents et d'archives au Centre national de formation pédagogique ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q25 [SIMPLE] Quels sont les deux candidats nommés analystes en chef au ministère de l'agriculture ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q26 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de chef de service au ministère de la jeunesse et des sports ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q27 [SIMPLE] À qui est-il mis fin aux fonctions de chef de bureau à Siliana ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q28 [SIMPLE] Qui est chargé des fonctions de directeur de la planification au ministère de l'emploi ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q29 [SIMPLE] Qui est chargé des fonctions de directeur d'appui des activités de formation au ministère de l'emploi ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q30 [SIMPLE] Qui est la ministre de la famille signataire de l'arrêté du 14 mai 2026 sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q31 [SIMPLE] Qui est la ministre des affaires culturelles signataire des arrêtés du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7811  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q32 [SIMPLE] Qui est la Cheffe du Gouvernement ayant visé les arrêtés du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7362  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q33 [SIMPLE] Qui a promulgué les lois relatives aux centrales photovoltaïques du 15 mai 2026 ?
+       → ✓ 4 chunk(s)  |  11 ms
+       [1] score=0.7725  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+       [2] score=0.7706  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+       [3] score=0.7043  chunk_id=9
+            Discussion et adoption par le Conseil national des régions et des districts dans sa séance du 13 mai 2026. Page 906 Journal Officiel de la République Tunisienne — 15 mai 2026 N° 49 Loi n° 2026-11 du 15 mai 2026, portant ...
+       [4] score=0.7023  chunk_id=12
+            N° 49 Journal Officiel de la République Tunisienne — 15 mai 2026 Page 907 Loi n° 2026-13 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photo...
+
+  Q34 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de directeur au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  29 ms
+
+  Q35 [SIMPLE] Dans quelle délégation se trouve l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q36 [SIMPLE] Quelle est la superficie de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q37 [SIMPLE] Quel est le rayon de protection de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q38 [SIMPLE] Dans quelle délégation se trouve la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  27 ms
+
+  Q39 [SIMPLE] Quelle est la superficie de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q40 [SIMPLE] Quel est le rayon de protection de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  ── QUESTIONS MOYENNES ──────────────────────────────────────────────────
+
+  Q41 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Sidi Bouzid ?
+       → ✓ 1 chunk(s)  |  11 ms
+       [1] score=0.7332  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q42 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Gafsa ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7230  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+
+  Q43 [MOYENNE] Quelles centrales photovoltaïques ont un contrat de location du terrain en plus de la convention de concession ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q44 [MOYENNE] Combien de lois relatives aux centrales photovoltaïques ont été publiées dans le JORT du 15 mai 2026 ?
+       → ✓ 3 chunk(s)  |  8 ms
+       [1] score=0.7391  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+       [2] score=0.7228  chunk_id=1
+            photovoltaïque El Ksar» ......................................................................................... 907 Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’élec...
+       [3] score=0.7008  chunk_id=9
+            Discussion et adoption par le Conseil national des régions et des districts dans sa séance du 13 mai 2026. Page 906 Journal Officiel de la République Tunisienne — 15 mai 2026 N° 49 Loi n° 2026-11 du 15 mai 2026, portant ...
+
+  Q45 [MOYENNE] Quelle est la différence de date de signature entre la centrale de Segdoud et les autres centrales ?
+       → ✗ AUCUN RÉSULTAT  |  7 ms
+
+  Q46 [MOYENNE] Quand l'Assemblée des représentants du peuple a-t-elle adopté les lois sur les centrales photovoltaïques ?
+       → ✗ AUCUN RÉSULTAT  |  25 ms
+
+  Q47 [MOYENNE] Quand le Conseil national des régions et des districts a-t-il adopté les lois sur les centrales photovoltaïques ?
+       → ✗ AUCUN RÉSULTAT  |  31 ms
+
+  Q48 [MOYENNE] Sur quelle loi de 1983 se fonde l'arrêté du ministre de la santé relatif aux substituts du lait maternel ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.8597  chunk_id=14
+            MINISTERE DE LA SANTE Arrêté du ministre de la santé du 14 mai 2026, fixant la liste des substituts du lait maternel. Le ministre de la santé, Vu la Constitution, Vu la loi n°83-24 du 4 mars 1983, relative au contrôle de...
+
+  Q49 [MOYENNE] Quel arrêté antérieur est abrogé par l'arrêté du ministre de la santé du 14 mai 2026 ?
+       → ✓ 1 chunk(s)  |  12 ms
+       [1] score=0.7455  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q50 [MOYENNE] Quelle commission a émis un avis sur la liste des substituts du lait maternel ?
+       → ✓ 1 chunk(s)  |  14 ms
+       [1] score=0.7976  chunk_id=14
+            MINISTERE DE LA SANTE Arrêté du ministre de la santé du 14 mai 2026, fixant la liste des substituts du lait maternel. Le ministre de la santé, Vu la Constitution, Vu la loi n°83-24 du 4 mars 1983, relative au contrôle de...
+
+  Q51 [MOYENNE] Quels avantages bénéficie le docteur Hedi Ben Sliman dans ses nouvelles fonctions au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q52 [MOYENNE] Quelle est la durée de formation des inspecteurs de la jeunesse et de l'enfance selon le nouvel arrêté ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q53 [MOYENNE] Quel pourcentage de l'horaire est consacré aux sciences humaines dans la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q54 [MOYENNE] Qui préside la commission pédagogique créée auprès du centre de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q55 [MOYENNE] Quels articles de l'arrêté de 2017 sont abrogés par le nouvel arrêté du 14 mai 2026 ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7025  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q56 [MOYENNE] Sur quel décret de 2019 se fonde l'arrêté de la ministre de la famille sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q57 [MOYENNE] Combien de mois de congé annuel bénéficient les participants au cycle de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q58 [MOYENNE] Quel arrêté de 2021 est modifié par le premier arrêté culturel du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7188  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q59 [MOYENNE] Quel arrêté de 2022 est modifié par le second arrêté culturel du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7058  chunk_id=5
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q60 [MOYENNE] Quel est le numéro du plan TPD de l'Escargotière de Henchir el Magtaâ et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q61 [MOYENNE] Quel est le numéro du plan TPD de la Maison punique de Gammarth et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  23 ms
+
+  Q62 [MOYENNE] Quel est le numéro du titre foncier de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q63 [MOYENNE] Quelle commission a émis un avis sur la protection des monuments historiques en février 2026 ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7111  chunk_id=25
+            intérim du 21 janvier 2021, relatif à la protection des calendrier général de formation, après information des monuments historiques et archéologiques. services compétents du ministère de tutelle. Article 7 (premier tire...
+
+  Q64 [MOYENNE] Quels articles du code du patrimoine sont visés par les arrêtés culturels du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  9 ms
+       [1] score=0.7260  chunk_id=28
+            La ministre des affaires culturelles, Vu la Constitution, Vu la Constitution, Vu le code du patrimoine archéologique, historique Vu le code du patrimoine archéologique, historique et des arts traditionnels promulgué par ...
+       [2] score=0.7257  chunk_id=29
+            la composition et au fonctionnement de la commission officiel de la République tunisienne. nationale du patrimoine, Tunis, le 15 mai 2026. Vu l’arrêté de la ministre des affaires culturelles du La ministre des affaires c...
+
+  Q65 [MOYENNE] À quelle date prend effet la nomination de Madame Amel Hadded à l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q66 [MOYENNE] À quelle date Docteur Racha Ghabara est-elle nommée au conseil d'administration de l'hôpital Abderrahmane Mami ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q67 [MOYENNE] À quelle date Docteur Maha Said prend-elle ses fonctions au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q68 [MOYENNE] À quelle date Monsieur Ayechi Jdidi prend-il ses fonctions à l'Institut de neurologie de Tunis ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7023  chunk_id=18
+            des indemnités et des avantages attribués à l'emploi de représentant la commune de Tunis au conseil sous- directeur d'administration centrale. d'administration de l'Institut national « El Mongi Ben Hmida » de neurologie ...
+
+  Q69 [MOYENNE] À quelle date Monsieur Mohamed Amine Zoueghi prend-il ses fonctions à l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q70 [MOYENNE] Quelle est la qualité de Monsieur Mohamed Amine Zoueghi au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+------------------------------------------------------------------------------------------
+  RÉSUMÉ Config 4 | Hit Rate=30.0% (21/70) | Sans résultat=49 | Chunks moy/question=0.4
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+  CONFIG 5 | chunk_size=700 | overlap=150 | threshold=0.7 | top_k=7
+  Chunks moyens, overlap amélioré vs Config 3
+  Chunks indexés : 45
+==========================================================================================
+
+  ── QUESTIONS SIMPLES ───────────────────────────────────────────────────
+
+  Q01 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque d'El Khobna ?
+       → ✓ 1 chunk(s)  |  13 ms
+       [1] score=0.7046  chunk_id=9
+            d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque d’El Khobna»(1). Au nom du peuple, L’Assemblée des représentants du peuple et le Conseil national des régions et des distri...
+
+  Q02 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q03 [SIMPLE] Quelle loi approuve la centrale photovoltaïque de Mezzouna ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7133  chunk_id=11
+            production d’électricité et ses annexes de «la centrale photovoltaïque de Mezzouna au gouvernorat de Sidi Bouzid»(1). Au nom du peuple, L’Assemblée des représentants du peuple et le Conseil national des régions et des di...
+
+  Q04 [SIMPLE] Quelle société a signé la convention pour la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q05 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q06 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q07 [SIMPLE] À quelle date a été signée la convention de la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q08 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque d'El Khobna ?
+       → ✗ AUCUN RÉSULTAT  |  23 ms
+
+  Q09 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque El Ksar ?
+       → ✓ 2 chunk(s)  |  9 ms
+       [1] score=0.7181  chunk_id=1
+            Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque El Ksar» ..........................................................
+       [2] score=0.7126  chunk_id=9
+            d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque d’El Khobna»(1). Au nom du peuple, L’Assemblée des représentants du peuple et le Conseil national des régions et des distri...
+
+  Q10 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q11 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque de Mezzouna ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q12 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q13 [SIMPLE] Qui remplace Khaled Hachicha au conseil d'établissement de l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q14 [SIMPLE] Qui est le ministre de la santé signataire de l'arrêté du 14 mai 2026 ?
+       → ✓ 2 chunk(s)  |  11 ms
+       [1] score=0.7505  chunk_id=26
+            Par arrêté du ministre de la santé du 15 mai des fonctions de chef de service de documents et 2026. d'archives au Centre national de formation Monsieur Mohamed Amine Zoueghi est nommé pédagogique des cadres de la santé. ...
+       [2] score=0.7186  chunk_id=24
+            santé. Par arrêté du ministre de la santé du 15 mai 2026. Docteur Mohamed Turki est nommé membre Par arrêté du ministre de la santé du 15 mai 2026. représentant des médecins de libre pratique au conseil d'établissement d...
+
+  Q15 [SIMPLE] Qui remplace Maroua Bahri au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✓ 1 chunk(s)  |  13 ms
+       [1] score=0.7121  chunk_id=23
+            La classe exceptionnelle à l'emploi de directeur représentant des médecins assistants hospitalo- d'administration centrale est attribuée à Madame universitaires exerçant au sein de l'hôpital au conseil Samia Goumani épou...
+
+  Q16 [SIMPLE] Qui remplace Hsan Hmida au conseil d'administration de l'Institut de neurologie de Tunis ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7341  chunk_id=25
+            En application des dispositions de l'article 13 du 2026. décret n° 81-793 du 9 juin 1981, l'intéressé bénéficie Monsieur Ayechi Jdidi est nommé membre des indemnités et des avantages attribués à l'emploi de représentant ...
+
+  Q17 [SIMPLE] Qui remplace Adel Mohsni au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q18 [SIMPLE] Qui remplace Aïda Borji au conseil d'administration de l'hôpital Bechir Hamza ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q19 [SIMPLE] Qui remplace Kamel Yacoubi à la Compagnie des phosphates de Gafsa ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q20 [SIMPLE] Qui est nommée administrateur représentant la Banque centrale de Tunisie à la CPG ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q21 [SIMPLE] Qui est nommé membre représentant les médecins de libre pratique à l'Instance nationale de l'évaluation en santé ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q22 [SIMPLE] Qui est nommée membre au conseil d'administration de l'hôpital Abderrahmane Mami de l'Ariana ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q23 [SIMPLE] Qui est chargé des fonctions d'inspecteur des services médicaux au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q24 [SIMPLE] Qui est nommée chef de service de documents et d'archives au Centre national de formation pédagogique ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q25 [SIMPLE] Quels sont les deux candidats nommés analystes en chef au ministère de l'agriculture ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q26 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de chef de service au ministère de la jeunesse et des sports ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q27 [SIMPLE] À qui est-il mis fin aux fonctions de chef de bureau à Siliana ?
+       → ✗ AUCUN RÉSULTAT  |  29 ms
+
+  Q28 [SIMPLE] Qui est chargé des fonctions de directeur de la planification au ministère de l'emploi ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7122  chunk_id=44
+            Prénom et nom Grade Emploi fonctionnel Administrateur en Directeur de la planification à la direction générale de la planification, la Hamouda Gabsi chef programmation et des projets. Administrateur Directeur d'appui des...
+
+  Q29 [SIMPLE] Qui est chargé des fonctions de directeur d'appui des activités de formation au ministère de l'emploi ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7003  chunk_id=44
+            Prénom et nom Grade Emploi fonctionnel Administrateur en Directeur de la planification à la direction générale de la planification, la Hamouda Gabsi chef programmation et des projets. Administrateur Directeur d'appui des...
+
+  Q30 [SIMPLE] Qui est la ministre de la famille signataire de l'arrêté du 14 mai 2026 sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q31 [SIMPLE] Qui est la ministre des affaires culturelles signataire des arrêtés du 15 mai 2026 ?
+       → ✓ 3 chunk(s)  |  9 ms
+       [1] score=0.8528  chunk_id=39
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la Arrêté de la ministre des affaires culturelles ministre des affaires culturelles du 15 avril du 15 mai 2026, modifiant l’arrêté du m...
+       [2] score=0.7811  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+       [3] score=0.7261  chunk_id=8
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la ministre des affaires culturelles du 15 avril 2022, relatif à la protection des monuments historiques et archéologiques ...............
+
+  Q32 [SIMPLE] Qui est la Cheffe du Gouvernement ayant visé les arrêtés du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  8 ms
+       [1] score=0.7362  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q33 [SIMPLE] Qui a promulgué les lois relatives aux centrales photovoltaïques du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  12 ms
+       [1] score=0.7720  chunk_id=1
+            Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque El Ksar» ..........................................................
+       [2] score=0.7706  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+
+  Q34 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de directeur au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q35 [SIMPLE] Dans quelle délégation se trouve l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q36 [SIMPLE] Quelle est la superficie de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q37 [SIMPLE] Quel est le rayon de protection de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q38 [SIMPLE] Dans quelle délégation se trouve la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q39 [SIMPLE] Quelle est la superficie de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q40 [SIMPLE] Quel est le rayon de protection de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  ── QUESTIONS MOYENNES ──────────────────────────────────────────────────
+
+  Q41 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Sidi Bouzid ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q42 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Gafsa ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7026  chunk_id=1
+            Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque El Ksar» ..........................................................
+
+  Q43 [MOYENNE] Quelles centrales photovoltaïques ont un contrat de location du terrain en plus de la convention de concession ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q44 [MOYENNE] Combien de lois relatives aux centrales photovoltaïques ont été publiées dans le JORT du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  9 ms
+       [1] score=0.7453  chunk_id=1
+            Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque El Ksar» ..........................................................
+       [2] score=0.7391  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+
+  Q45 [MOYENNE] Quelle est la différence de date de signature entre la centrale de Segdoud et les autres centrales ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q46 [MOYENNE] Quand l'Assemblée des représentants du peuple a-t-elle adopté les lois sur les centrales photovoltaïques ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7382  chunk_id=9
+            d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque d’El Khobna»(1). Au nom du peuple, L’Assemblée des représentants du peuple et le Conseil national des régions et des distri...
+
+  Q47 [MOYENNE] Quand le Conseil national des régions et des districts a-t-il adopté les lois sur les centrales photovoltaïques ?
+       → ✓ 1 chunk(s)  |  8 ms
+       [1] score=0.7577  chunk_id=9
+            d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque d’El Khobna»(1). Au nom du peuple, L’Assemblée des représentants du peuple et le Conseil national des régions et des distri...
+
+  Q48 [MOYENNE] Sur quelle loi de 1983 se fonde l'arrêté du ministre de la santé relatif aux substituts du lait maternel ?
+       → ✓ 2 chunk(s)  |  9 ms
+       [1] score=0.8207  chunk_id=20
+            Vu le décret n° 84-1314 du 3 novembre 1984, fixant les attributions, la composition et le mode de fonctionnement de la commission nationale pour la promotion de l'alimentation du nourrisson et de l'enfant, Vu l’arrêté du...
+       [2] score=0.7291  chunk_id=19
+            d’établissement de l’Office de Rjim Maâtoug pour le développement du Sud et du Sahara, en remplacement du Monsieur Khaled Hachicha, et ce, à compter du 1er mai 2026. MINISTERE DE LA SANTE Arrêté du ministre de la santé d...
+
+  Q49 [MOYENNE] Quel arrêté antérieur est abrogé par l'arrêté du ministre de la santé du 14 mai 2026 ?
+       → ✓ 3 chunk(s)  |  9 ms
+       [1] score=0.7455  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+       [2] score=0.7349  chunk_id=39
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la Arrêté de la ministre des affaires culturelles ministre des affaires culturelles du 15 avril du 15 mai 2026, modifiant l’arrêté du m...
+       [3] score=0.7047  chunk_id=21
+            Art. 2 - Sont abrogées toutes les dispositions antérieures contraires au présent arrêté, notamment l'arrêté du 2 septembre 2025 susvisé. Art. 3 - Le présent arrêté sera publié au Journal officiel de la République tunisie...
+
+  Q50 [MOYENNE] Quelle commission a émis un avis sur la liste des substituts du lait maternel ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.8452  chunk_id=20
+            Vu le décret n° 84-1314 du 3 novembre 1984, fixant les attributions, la composition et le mode de fonctionnement de la commission nationale pour la promotion de l'alimentation du nourrisson et de l'enfant, Vu l’arrêté du...
+
+  Q51 [MOYENNE] Quels avantages bénéficie le docteur Hedi Ben Sliman dans ses nouvelles fonctions au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q52 [MOYENNE] Quelle est la durée de formation des inspecteurs de la jeunesse et de l'enfance selon le nouvel arrêté ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q53 [MOYENNE] Quel pourcentage de l'horaire est consacré aux sciences humaines dans la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q54 [MOYENNE] Qui préside la commission pédagogique créée auprès du centre de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  7 ms
+
+  Q55 [MOYENNE] Quels articles de l'arrêté de 2017 sont abrogés par le nouvel arrêté du 14 mai 2026 ?
+       → ✓ 1 chunk(s)  |  8 ms
+       [1] score=0.7025  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q56 [MOYENNE] Sur quel décret de 2019 se fonde l'arrêté de la ministre de la famille sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  7 ms
+
+  Q57 [MOYENNE] Combien de mois de congé annuel bénéficient les participants au cycle de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  7 ms
+
+  Q58 [MOYENNE] Quel arrêté de 2021 est modifié par le premier arrêté culturel du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  10 ms
+       [1] score=0.7275  chunk_id=39
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la Arrêté de la ministre des affaires culturelles ministre des affaires culturelles du 15 avril du 15 mai 2026, modifiant l’arrêté du m...
+       [2] score=0.7188  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q59 [MOYENNE] Quel arrêté de 2022 est modifié par le second arrêté culturel du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  10 ms
+       [1] score=0.7212  chunk_id=39
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la Arrêté de la ministre des affaires culturelles ministre des affaires culturelles du 15 avril du 15 mai 2026, modifiant l’arrêté du m...
+       [2] score=0.7058  chunk_id=7
+            Arrêté de la ministre de la famille, de la femme, de l'enfance et des personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de f...
+
+  Q60 [MOYENNE] Quel est le numéro du plan TPD de l'Escargotière de Henchir el Magtaâ et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  32 ms
+
+  Q61 [MOYENNE] Quel est le numéro du plan TPD de la Maison punique de Gammarth et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q62 [MOYENNE] Quel est le numéro du titre foncier de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q63 [MOYENNE] Quelle commission a émis un avis sur la protection des monuments historiques en février 2026 ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q64 [MOYENNE] Quels articles du code du patrimoine sont visés par les arrêtés culturels du 15 mai 2026 ?
+       → ✓ 3 chunk(s)  |  9 ms
+       [1] score=0.7260  chunk_id=40
+            La ministre des affaires culturelles, Vu la Constitution, Vu la Constitution, Vu le code du patrimoine archéologique, historique Vu le code du patrimoine archéologique, historique et des arts traditionnels promulgué par ...
+       [2] score=0.7071  chunk_id=42
+            15 avril 2022, relatif à la protection des monuments Amina Srarfi historiques et archéologiques. Vu Vu l’avis de la commission nationale du La Cheffe du Gouvernement patrimoine réunie en date du 13 février 2026. Sarra Za...
+       [3] score=0.7069  chunk_id=39
+            Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la Arrêté de la ministre des affaires culturelles ministre des affaires culturelles du 15 avril du 15 mai 2026, modifiant l’arrêté du m...
+
+  Q65 [MOYENNE] À quelle date prend effet la nomination de Madame Amel Hadded à l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q66 [MOYENNE] À quelle date Docteur Racha Ghabara est-elle nommée au conseil d'administration de l'hôpital Abderrahmane Mami ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q67 [MOYENNE] À quelle date Docteur Maha Said prend-elle ses fonctions au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7001  chunk_id=23
+            La classe exceptionnelle à l'emploi de directeur représentant des médecins assistants hospitalo- d'administration centrale est attribuée à Madame universitaires exerçant au sein de l'hôpital au conseil Samia Goumani épou...
+
+  Q68 [MOYENNE] À quelle date Monsieur Ayechi Jdidi prend-il ses fonctions à l'Institut de neurologie de Tunis ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q69 [MOYENNE] À quelle date Monsieur Mohamed Amine Zoueghi prend-il ses fonctions à l'hôpital Habib Bougatfa ?
+       → ✓ 1 chunk(s)  |  11 ms
+       [1] score=0.7028  chunk_id=26
+            Par arrêté du ministre de la santé du 15 mai des fonctions de chef de service de documents et 2026. d'archives au Centre national de formation Monsieur Mohamed Amine Zoueghi est nommé pédagogique des cadres de la santé. ...
+
+  Q70 [MOYENNE] Quelle est la qualité de Monsieur Mohamed Amine Zoueghi au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+------------------------------------------------------------------------------------------
+  RÉSUMÉ Config 5 | Hit Rate=34.3% (24/70) | Sans résultat=46 | Chunks moy/question=0.5
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+  CONFIG 6 | chunk_size=500 | overlap=75 | threshold=0.7 | top_k=5
+  Petits chunks, ablation threshold vs Config 1
+  Chunks indexés : 58
+==========================================================================================
+
+  ── QUESTIONS SIMPLES ───────────────────────────────────────────────────
+
+  Q01 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque d'El Khobna ?
+       → ✗ AUCUN RÉSULTAT  |  15 ms
+
+  Q02 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  13 ms
+
+  Q03 [SIMPLE] Quelle loi approuve la centrale photovoltaïque de Mezzouna ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q04 [SIMPLE] Quelle société a signé la convention pour la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q05 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q06 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque Menzel El Habib ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q07 [SIMPLE] À quelle date a été signée la convention de la centrale de Segdoud ?
+       → ✗ AUCUN RÉSULTAT  |  14 ms
+
+  Q08 [SIMPLE] Dans quel gouvernorat se trouve la centrale photovoltaïque d'El Khobna ?
+       → ✗ AUCUN RÉSULTAT  |  13 ms
+
+  Q09 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q10 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque El Ksar ?
+       → ✗ AUCUN RÉSULTAT  |  12 ms
+
+  Q11 [SIMPLE] Quelle société a signé la convention pour la centrale photovoltaïque de Mezzouna ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q12 [SIMPLE] Quel est le numéro de la loi approuvant la centrale photovoltaïque de Segdoud ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7122  chunk_id=2
+            Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque de Segdoud» ..................
+
+  Q13 [SIMPLE] Qui remplace Khaled Hachicha au conseil d'établissement de l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q14 [SIMPLE] Qui est le ministre de la santé signataire de l'arrêté du 14 mai 2026 ?
+       → ✓ 2 chunk(s)  |  13 ms
+       [1] score=0.7627  chunk_id=34
+            Par arrêté du ministre de la santé du 15 mai des fonctions de chef de service de documents et 2026. d'archives au Centre national de formation Monsieur Mohamed Amine Zoueghi est nommé pédagogique des cadres de la santé. ...
+       [2] score=0.7586  chunk_id=31
+            national de greffe de la moelle osseuse (établissement ce, à compter du 15 janvier 2026. hospitalier de la catégorie « A » ) au ministère de la santé. Par arrêté du ministre de la santé du 15 mai 2026. Docteur Mohamed Tu...
+
+  Q15 [SIMPLE] Qui remplace Maroua Bahri au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7517  chunk_id=30
+            2026. 2026. Docteur Maha Said est nommée membre La classe exceptionnelle à l'emploi de directeur représentant des médecins assistants hospitalo- d'administration centrale est attribuée à Madame universitaires exerçant au...
+
+  Q16 [SIMPLE] Qui remplace Hsan Hmida au conseil d'administration de l'Institut de neurologie de Tunis ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7788  chunk_id=33
+            des indemnités et des avantages attribués à l'emploi de représentant la commune de Tunis au conseil sous- directeur d'administration centrale. d'administration de l'Institut national « El Mongi Ben Hmida » de neurologie ...
+
+  Q17 [SIMPLE] Qui remplace Adel Mohsni au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q18 [SIMPLE] Qui remplace Aïda Borji au conseil d'administration de l'hôpital Bechir Hamza ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q19 [SIMPLE] Qui remplace Kamel Yacoubi à la Compagnie des phosphates de Gafsa ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q20 [SIMPLE] Qui est nommée administrateur représentant la Banque centrale de Tunisie à la CPG ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q21 [SIMPLE] Qui est nommé membre représentant les médecins de libre pratique à l'Instance nationale de l'évaluation en santé ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q22 [SIMPLE] Qui est nommée membre au conseil d'administration de l'hôpital Abderrahmane Mami de l'Ariana ?
+       → ✗ AUCUN RÉSULTAT  |  28 ms
+
+  Q23 [SIMPLE] Qui est chargé des fonctions d'inspecteur des services médicaux au ministère de la santé ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7170  chunk_id=32
+            Le docteur Hedi Ben Sliman, inspecteur régional et de l'accréditation en santé, et ce, à compter du 31 de la santé publique, est chargé des fonctions mars 2026. d'inspecteur des services médicaux à l'inspection médicale ...
+
+  Q24 [SIMPLE] Qui est nommée chef de service de documents et d'archives au Centre national de formation pédagogique ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q25 [SIMPLE] Quels sont les deux candidats nommés analystes en chef au ministère de l'agriculture ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q26 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de chef de service au ministère de la jeunesse et des sports ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7094  chunk_id=9
+            Ministère de la Jeunesse et des Sports Attribution de la classe exceptionnelle à l'emploi de chef de service ............... 917 Cessation de fonctions .......................................................................
+
+  Q27 [SIMPLE] À qui est-il mis fin aux fonctions de chef de bureau à Siliana ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q28 [SIMPLE] Qui est chargé des fonctions de directeur de la planification au ministère de l'emploi ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7325  chunk_id=56
+            indiquée sur le plan des travaux particuliers divers TPD n°113851 du 19 mai 2025, avec un rayon de et de la formation professionnelle conformément aux 200m aux abords. indications du tableau suivant : Prénom et nom Grade...
+
+  Q29 [SIMPLE] Qui est chargé des fonctions de directeur d'appui des activités de formation au ministère de l'emploi ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7236  chunk_id=56
+            indiquée sur le plan des travaux particuliers divers TPD n°113851 du 19 mai 2025, avec un rayon de et de la formation professionnelle conformément aux 200m aux abords. indications du tableau suivant : Prénom et nom Grade...
+
+  Q30 [SIMPLE] Qui est la ministre de la famille signataire de l'arrêté du 14 mai 2026 sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q31 [SIMPLE] Qui est la ministre des affaires culturelles signataire des arrêtés du 15 mai 2026 ?
+       → ✓ 3 chunk(s)  |  10 ms
+       [1] score=0.7660  chunk_id=50
+            Tunis, le 15 mai 2026. Asma Jabri Vu La ministre des affaires culturelles La Cheffe du Gouvernement Amina Srarfi Sarra Zaafrani Zenzri Vu La Cheffe du Gouvernement Sarra Zaafrani Zenzri MINISTERE DES AFFAIRES CULTURELLES...
+       [2] score=0.7509  chunk_id=10
+            personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de formation des inspecteurs de la jeunesse et de l’enfance .................
+       [3] score=0.7035  chunk_id=11
+            relatif à la protection des monuments historiques et archéologiques ............... 918 Arrêté de la ministre des affaires culturelles du 15 mai 2026, modifiant l’arrêté de la ministre des affaires culturelles du 15 avri...
+
+  Q32 [SIMPLE] Qui est la Cheffe du Gouvernement ayant visé les arrêtés du 15 mai 2026 ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q33 [SIMPLE] Qui a promulgué les lois relatives aux centrales photovoltaïques du 15 mai 2026 ?
+       → ✓ 5 chunk(s)  |  11 ms
+       [1] score=0.7981  chunk_id=2
+            Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque de Segdoud» ..................
+       [2] score=0.7781  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+       [3] score=0.7519  chunk_id=1
+            Loi n° 2026-10 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque de Mezzouna au gouvernorat de Sidi Bouzid» ........................
+       [4] score=0.7372  chunk_id=17
+            Page 906 Journal Officiel de la République Tunisienne — 15 mai 2026 N° 49 Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photo...
+       [5] score=0.7281  chunk_id=12
+            N° 49 Journal Officiel de la République Tunisienne — 15 mai 2026 Page 905 Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité, du contrat de location du terra...
+
+  Q34 [SIMPLE] Qui se voit attribuer la classe exceptionnelle de directeur au ministère de la santé ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q35 [SIMPLE] Dans quelle délégation se trouve l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  17 ms
+
+  Q36 [SIMPLE] Quelle est la superficie de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  22 ms
+
+  Q37 [SIMPLE] Quel est le rayon de protection de l'Escargotière de Henchir el Magtaâ ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q38 [SIMPLE] Dans quelle délégation se trouve la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q39 [SIMPLE] Quelle est la superficie de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q40 [SIMPLE] Quel est le rayon de protection de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  ── QUESTIONS MOYENNES ──────────────────────────────────────────────────
+
+  Q41 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Sidi Bouzid ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7560  chunk_id=1
+            Loi n° 2026-10 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque de Mezzouna au gouvernorat de Sidi Bouzid» ........................
+
+  Q42 [MOYENNE] Quelles centrales photovoltaïques approuvées le 15 mai 2026 sont situées dans le gouvernorat de Gafsa ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7172  chunk_id=1
+            Loi n° 2026-10 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque de Mezzouna au gouvernorat de Sidi Bouzid» ........................
+
+  Q43 [MOYENNE] Quelles centrales photovoltaïques ont un contrat de location du terrain en plus de la convention de concession ?
+       → ✗ AUCUN RÉSULTAT  |  31 ms
+
+  Q44 [MOYENNE] Combien de lois relatives aux centrales photovoltaïques ont été publiées dans le JORT du 15 mai 2026 ?
+       → ✓ 5 chunk(s)  |  12 ms
+       [1] score=0.7838  chunk_id=2
+            Loi n° 2026-12 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité, du contrat de location du terrain et leurs annexes de «la centrale photovoltaïque de Segdoud» ..................
+       [2] score=0.7484  chunk_id=0
+            TRADUCTION FRANÇAISE POUR INFORMATION Vendredi 28 dhoulkaâda 1447 – 15 mai 2026 169ème année N° 49 Sommaire Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricit...
+       [3] score=0.7308  chunk_id=1
+            Loi n° 2026-10 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photovoltaïque de Mezzouna au gouvernorat de Sidi Bouzid» ........................
+       [4] score=0.7163  chunk_id=17
+            Page 906 Journal Officiel de la République Tunisienne — 15 mai 2026 N° 49 Loi n° 2026-11 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité et ses annexes de «la centrale photo...
+       [5] score=0.7018  chunk_id=12
+            N° 49 Journal Officiel de la République Tunisienne — 15 mai 2026 Page 905 Lois Loi n° 2026-9 du 15 mai 2026, portant approbation de la convention de concession de production d’électricité, du contrat de location du terra...
+
+  Q45 [MOYENNE] Quelle est la différence de date de signature entre la centrale de Segdoud et les autres centrales ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q46 [MOYENNE] Quand l'Assemblée des représentants du peuple a-t-elle adopté les lois sur les centrales photovoltaïques ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q47 [MOYENNE] Quand le Conseil national des régions et des districts a-t-il adopté les lois sur les centrales photovoltaïques ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q48 [MOYENNE] Sur quelle loi de 1983 se fonde l'arrêté du ministre de la santé relatif aux substituts du lait maternel ?
+       → ✓ 2 chunk(s)  |  10 ms
+       [1] score=0.8318  chunk_id=26
+            Le ministre de la santé, Vu la Constitution, Vu la loi n°83-24 du 4 mars 1983, relative au contrôle de la qualité, à la commercialisation et à l'information sur l'utilisation des substituts du lait maternel et produits a...
+       [2] score=0.8090  chunk_id=27
+            Vu l’arrêté du ministre de la santé du 2 septembre 2025, fixant la liste des substituts du lait maternel, Vu l'avis de la commission nationale pour la promotion de l'alimentation du nourrisson et de l'enfant émis lors de...
+
+  Q49 [MOYENNE] Quel arrêté antérieur est abrogé par l'arrêté du ministre de la santé du 14 mai 2026 ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7047  chunk_id=10
+            personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de formation des inspecteurs de la jeunesse et de l’enfance .................
+
+  Q50 [MOYENNE] Quelle commission a émis un avis sur la liste des substituts du lait maternel ?
+       → ✓ 2 chunk(s)  |  10 ms
+       [1] score=0.8155  chunk_id=27
+            Vu l’arrêté du ministre de la santé du 2 septembre 2025, fixant la liste des substituts du lait maternel, Vu l'avis de la commission nationale pour la promotion de l'alimentation du nourrisson et de l'enfant émis lors de...
+       [2] score=0.7221  chunk_id=26
+            Le ministre de la santé, Vu la Constitution, Vu la loi n°83-24 du 4 mars 1983, relative au contrôle de la qualité, à la commercialisation et à l'information sur l'utilisation des substituts du lait maternel et produits a...
+
+  Q51 [MOYENNE] Quels avantages bénéficie le docteur Hedi Ben Sliman dans ses nouvelles fonctions au ministère de la santé ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7250  chunk_id=32
+            Le docteur Hedi Ben Sliman, inspecteur régional et de l'accréditation en santé, et ce, à compter du 31 de la santé publique, est chargé des fonctions mars 2026. d'inspecteur des services médicaux à l'inspection médicale ...
+
+  Q52 [MOYENNE] Quelle est la durée de formation des inspecteurs de la jeunesse et de l'enfance selon le nouvel arrêté ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7128  chunk_id=45
+            formation des inspecteurs de la jeunesse et de l’enfance, la composition et au fonctionnement de la commission dure deux (2) ans au cours de laquelle les participants nationale du patrimoine, bénéficient d’un (1) mois de...
+
+  Q53 [MOYENNE] Quel pourcentage de l'horaire est consacré aux sciences humaines dans la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  8 ms
+
+  Q54 [MOYENNE] Qui préside la commission pédagogique créée auprès du centre de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q55 [MOYENNE] Quels articles de l'arrêté de 2017 sont abrogés par le nouvel arrêté du 14 mai 2026 ?
+       → ✗ AUCUN RÉSULTAT  |  28 ms
+
+  Q56 [MOYENNE] Sur quel décret de 2019 se fonde l'arrêté de la ministre de la famille sur la formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q57 [MOYENNE] Combien de mois de congé annuel bénéficient les participants au cycle de formation des inspecteurs ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q58 [MOYENNE] Quel arrêté de 2021 est modifié par le premier arrêté culturel du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  11 ms
+       [1] score=0.7318  chunk_id=10
+            personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de formation des inspecteurs de la jeunesse et de l’enfance .................
+
+  Q59 [MOYENNE] Quel arrêté de 2022 est modifié par le second arrêté culturel du 15 mai 2026 ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7144  chunk_id=10
+            personnes âgées du 14 mai 2026, portant modification de l’arrêté du 22 mars 2017, fixant le régime de formation, des études et de sortie du cycle de formation des inspecteurs de la jeunesse et de l’enfance .................
+
+  Q60 [MOYENNE] Quel est le numéro du plan TPD de l'Escargotière de Henchir el Magtaâ et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+  Q61 [MOYENNE] Quel est le numéro du plan TPD de la Maison punique de Gammarth et sa date ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q62 [MOYENNE] Quel est le numéro du titre foncier de la Maison punique de Gammarth ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q63 [MOYENNE] Quelle commission a émis un avis sur la protection des monuments historiques en février 2026 ?
+       → ✓ 1 chunk(s)  |  30 ms
+       [1] score=0.7933  chunk_id=51
+            2022, relatif à la protection des monuments des affaires culturelles par intérim du 21 historiques et archéologiques. janvier 2021, relatif à la protection des monuments historiques et archéologiques. La ministre des aff...
+
+  Q64 [MOYENNE] Quels articles du code du patrimoine sont visés par les arrêtés culturels du 15 mai 2026 ?
+       → ✓ 2 chunk(s)  |  10 ms
+       [1] score=0.7499  chunk_id=51
+            2022, relatif à la protection des monuments des affaires culturelles par intérim du 21 historiques et archéologiques. janvier 2021, relatif à la protection des monuments historiques et archéologiques. La ministre des aff...
+       [2] score=0.7071  chunk_id=54
+            15 avril 2022, relatif à la protection des monuments Amina Srarfi historiques et archéologiques. Vu Vu l’avis de la commission nationale du La Cheffe du Gouvernement patrimoine réunie en date du 13 février 2026. Sarra Za...
+
+  Q65 [MOYENNE] À quelle date prend effet la nomination de Madame Amel Hadded à l'Office de Rjim Maâtoug ?
+       → ✗ AUCUN RÉSULTAT  |  9 ms
+
+  Q66 [MOYENNE] À quelle date Docteur Racha Ghabara est-elle nommée au conseil d'administration de l'hôpital Abderrahmane Mami ?
+       → ✓ 1 chunk(s)  |  10 ms
+       [1] score=0.7531  chunk_id=36
+            2026. l’industrie des mines et de l’énergie du 8 mai 2026. Docteur Racha Ghabara est nommée membre représentant des médecins assistants hospitalo- Madame Amel Abida est nommée administrateur universitaires exerçant au se...
+
+  Q67 [MOYENNE] À quelle date Docteur Maha Said prend-elle ses fonctions au conseil d'administration de l'hôpital Aziza Othmana ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7675  chunk_id=30
+            2026. 2026. Docteur Maha Said est nommée membre La classe exceptionnelle à l'emploi de directeur représentant des médecins assistants hospitalo- d'administration centrale est attribuée à Madame universitaires exerçant au...
+
+  Q68 [MOYENNE] À quelle date Monsieur Ayechi Jdidi prend-il ses fonctions à l'Institut de neurologie de Tunis ?
+       → ✓ 1 chunk(s)  |  9 ms
+       [1] score=0.7097  chunk_id=33
+            des indemnités et des avantages attribués à l'emploi de représentant la commune de Tunis au conseil sous- directeur d'administration centrale. d'administration de l'Institut national « El Mongi Ben Hmida » de neurologie ...
+
+  Q69 [MOYENNE] À quelle date Monsieur Mohamed Amine Zoueghi prend-il ses fonctions à l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  10 ms
+
+  Q70 [MOYENNE] Quelle est la qualité de Monsieur Mohamed Amine Zoueghi au conseil d'administration de l'hôpital Habib Bougatfa ?
+       → ✗ AUCUN RÉSULTAT  |  11 ms
+
+------------------------------------------------------------------------------------------
+  RÉSUMÉ Config 6 | Hit Rate=35.7% (25/70) | Sans résultat=45 | Chunks moy/question=0.6
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+  COMPARATIF FINAL — TOUTES CONFIGS
+==========================================================================================
+  Config        chunk  overlap  threshold  top_k  Indexed   Hit Rate  Sans rés.  Moy chunks
+  ------------ ------ -------- ---------- ------ -------- ---------- ---------- -----------
+  Config 4       1000      200        0.7      5       32      30.0%         49         0.4
+  Config 5        700      150        0.7      7       45      34.3%         46         0.5
+  Config 6        500       75        0.7      5       58      35.7%         45         0.6 ◄ MEILLEURE
+
+  → Meilleure configuration : Config 6 (Hit Rate = 35.7%,  chunks moy/Q = 0.6)
+==========================================================================================

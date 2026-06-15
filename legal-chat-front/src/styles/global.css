@@ -1,0 +1,117 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f3;
+    --bg-tertiary: #eeede9;
+    --bg-input: #f0f0ee;
+  
+    --text-primary: #1a1a1a;
+    --text-secondary: #555555;
+    --text-tertiary: #999999;
+    --text-muted: #bbbbbb;
+  
+    --border-main: #e0e0de;
+    --border-subtle: #ebebea;
+  
+   --source-text: #1e4a2f;   
+  --source-border: #c0dfc0; 
+    --accent: #1e4a2f;        
+  --accent-light: #2a5e3f; 
+    --accent-bubble-bg: #e8f0fb;
+    --accent-bubble-text: #0c447c;
+  
+    --user-bubble-bg: #185FA5;
+    --user-bubble-text: #E6F1FB;
+  
+    --bot-bubble-bg: #f5f5f3;
+    --bot-bubble-border: #e0e0de;
+    --bot-bubble-text: #1a1a1a;
+  
+    --source-bg: #e8f0fb;
+    --source-text: #185FA5;
+    --source-border: #b5d4f4;
+  
+    --cypher-bg: #f0f0ee;
+    --cypher-border: #185FA5;
+    --cypher-text: #555555;
+    --cypher-label: #185FA5;
+  
+    --sidebar-bg: #fafaf8;
+    --sidebar-border: #e0e0de;
+    --active-item-bg: #ffffff;
+    --active-item-border: #185FA5;
+  
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+  
+    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  
+  [data-theme="dark"] {
+    --bg-primary: #0f0f0f;
+    --bg-secondary: #141414;
+    --bg-tertiary: #1a1a1a;
+    --bg-input: #141414;
+  
+    --text-primary: #d0d0d0;
+    --text-secondary: #888888;
+    --text-tertiary: #555555;
+    --text-muted: #333333;
+  
+    --border-main: #1e1e1e;
+    --border-subtle: #222222;
+  
+     --accent: #3a8c5e;
+  --accent-light: #1e4a2f;
+  --source-text: #8bcb9e;
+  --source-border: #2a5e3f;
+  
+    --user-bubble-bg: #0d2033;
+    --user-bubble-text: #B5D4F4;
+  
+    --bot-bubble-bg: #161616;
+    --bot-bubble-border: #222222;
+    --bot-bubble-text: #d0d0d0;
+  
+    --source-bg: #0d1e2e;
+    
+  
+    --cypher-bg: #0a0a0a;
+    --cypher-border: #185FA5;
+    --cypher-text: #555555;
+    --cypher-label: #378ADD;
+  
+    --sidebar-bg: #0a0a0a;
+    --sidebar-border: #1e1e1e;
+    --active-item-bg: #141414;
+    --active-item-border: #378ADD;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 1.6;
+    transition: background 0.2s, color 0.2s;
+  }
+  [data-theme="dark"] .sidebar {
+  background: #1a1712;
+  border-right-color: #2a2722;
+}
+  button {
+    cursor: pointer;
+    font-family: var(--font-sans);
+  }
+  .send-btn {
+  border-radius: 8px;  
+  width: auto;
+  padding: 0 16px;
+}
